@@ -1,0 +1,16 @@
+//9. Write a C program to input the base and height of a triangle and calculate its area.
+#include<stdio.h>
+int main()
+{
+	float base,height,area;
+	printf("enter the base:");
+	scanf("%f",&base);
+	
+	printf("enter the height:");
+	scanf("%f",&height);
+	
+	area = 0.5*base*height;
+
+ printf("Area of the triangle = %.2f \n", area);
+	return 0;
+}
