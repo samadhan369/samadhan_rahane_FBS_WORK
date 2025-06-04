@@ -1,9 +1,0 @@
-#include<stdio.h>
-void main()
-{
-	int a,b,sum;
-	a=5;
-	b=5;
-	sum=a+b;
-	printf("sum is %d",sum);
-}
