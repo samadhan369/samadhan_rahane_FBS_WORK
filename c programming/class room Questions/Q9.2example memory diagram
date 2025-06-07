@@ -1,0 +1,15 @@
+#include<stdio.h>
+void main()
+{
+    int a = 10, b = 20;
+    int c = a + b++; 
+    int x;
+    while (c <= 50)
+    {
+        x = b + c++;   
+        a = x - 1;   
+        x--;           
+        c = c + 10;    
+    }
+    printf(" a=%d\n b=%d\n c=%d\n x=%d",a,b,c,x);
+}
