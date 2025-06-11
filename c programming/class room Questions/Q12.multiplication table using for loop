@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int number, stop, i;
+    printf("Enter a number : ");
+    scanf("%d", &number);
+    printf("Enter the stop number: ");
+    scanf("%d", &stop);
+    for (i = 1; i <= stop; i++) {
+        printf("%d x %d = %d\n", number, i, number * i);
+    }
+    return 0;
+}

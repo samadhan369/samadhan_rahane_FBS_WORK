@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+void main()
+{
+    int no = 12345;
+    int r1, r2, r3, r4, r5, res;
+
+    r5 = no % 10;              
+    r4 = (no / 10) % 10;       
+    r3 = (no / 100) % 10;      
+    r2 = (no / 1000) % 10;     
+    r1 = (no / 10000) % 10;    
+
+    res = r1 + r2 + r3 + r4 + r5;
+
+    printf("sum of %d and %d and %d and %d and %d is %d\n", r1, r2, r3, r4, r5, res);
+}
