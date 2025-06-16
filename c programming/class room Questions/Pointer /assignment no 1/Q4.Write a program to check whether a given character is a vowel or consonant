@@ -1,0 +1,24 @@
+#include <stdio.h>
+void character(); // dec
+int main() {
+    character(); // Fc
+}
+void character() { // def
+    char ch;
+    char *ptr = &ch;  
+    printf("Enter a character/NUMBER: ");
+    scanf(" %c", ptr); 
+    if ((*ptr >= 'a' && *ptr <= 'z') || (*ptr >= 'A' && *ptr <= 'Z')) {
+        char lower = (*ptr >= 'A' && *ptr <= 'Z') ? *ptr + 32 : *ptr;
+        if (lower == 'a' || lower == 'e' || lower == 'i' || lower == 'o' || lower == 'u')
+            printf("Character is a VOWEL: %c\n", *ptr);
+        else
+            printf("Character is a CONSONANT: %c\n", *ptr);
+    }
+    else if (*ptr >= '0' && *ptr <= '9') {
+        printf("You entered a DIGIT: %c\n", *ptr);
+    }
+    else {
+        printf("INVALID INPUT: %c is neither a letter nor a digit.\n", *ptr);
+    }
+}
