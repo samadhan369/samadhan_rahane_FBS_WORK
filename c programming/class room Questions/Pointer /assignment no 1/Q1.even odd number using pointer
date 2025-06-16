@@ -1,0 +1,18 @@
+#include <stdio.h>
+void evenodd(); 
+int main()
+{
+    evenodd(); 
+    return 0;
+}
+void evenodd() 
+{
+    int number;
+    int *ptr = &number; 
+    printf("Enter a number: ");
+    scanf("%d", ptr); 
+    if (*ptr % 2 == 0)
+        printf("Number is even\n");
+    else
+        printf("Number is odd\n");
+}
