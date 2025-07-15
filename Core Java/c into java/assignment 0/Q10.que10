@@ -1,0 +1,17 @@
+package assignmentno1;
+
+public class que10 {
+
+	public static void main(String[] args) {
+		int hindi=20,marathi=20,c=20,cpp=20,networking=20,totalmarks;
+		double percentage;
+
+	    
+	    totalmarks=(hindi+marathi+c+cpp+networking);
+	    percentage=(totalmarks)/5.0;
+	    
+	    System.out.printf("total marks = %d\n percentage = %.2f\n",totalmarks,percentage);
+
+	}
+
+}
