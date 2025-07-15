@@ -1,0 +1,16 @@
+package assignmentno1;
+
+public class Question5 {
+
+	public static void main(String[] args) {
+		  int n1=12, n2=34, n3=56, n4=60, n5=80;
+		  double average;;
+		 
+
+		    average= (n1 + n2 + n3 + n4 + n5 )/ 5.0;
+
+		    System.out.printf(" Average = %.2f\n", average);
+
+	}
+
+}
