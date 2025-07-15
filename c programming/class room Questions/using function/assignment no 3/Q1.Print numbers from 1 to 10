@@ -1,0 +1,17 @@
+#include <stdio.h>
+int printnum(); //dec
+int main() {
+	printnum(); //fc
+}
+int printnum() //def
+    int number, i;
+    printf("Enter the start number: ");
+    scanf("%d", &number);
+    printf("Enter the stop number: ");
+    scanf("%d", &i);
+    while (number <= i) {
+        printf("number = %d\n", number);
+        number++;
+    }
+    return 0;
+}

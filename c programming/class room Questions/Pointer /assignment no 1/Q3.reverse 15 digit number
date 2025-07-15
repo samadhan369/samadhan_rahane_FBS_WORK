@@ -1,0 +1,47 @@
+#include <stdio.h>
+int reversed(); //f dec
+int main() {
+    reversed();  // fc
+    return 0;
+}
+int reversed() //def
+{
+    long long int no, reversed = 0;
+    long long int *ptr = &no;  // Pointer to variable no
+    int r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r11, r12, r13, r14, r15;
+    printf("Enter a 15-digit number:\n ");
+    scanf("%lld", ptr); 
+    r1  = (*ptr / 1)               % 10;
+    r2  = (*ptr / 10)              % 10;
+    r3  = (*ptr / 100)             % 10;
+    r4  = (*ptr / 1000)            % 10;
+    r5  = (*ptr / 10000)           % 10;
+    r6  = (*ptr / 100000)          % 10;
+    r7  = (*ptr / 1000000)         % 10;
+    r8  = (*ptr / 10000000)        % 10;
+    r9  = (*ptr / 100000000)       % 10;
+    r10 = (*ptr / 1000000000)      % 10;
+    r11 = (*ptr / 10000000000)     % 10;
+    r12 = (*ptr / 100000000000)    % 10;
+    r13 = (*ptr / 1000000000000)   % 10;
+    r14 = (*ptr / 10000000000000)  % 10;
+    r15 = (*ptr / 100000000000000) % 10;
+    reversed = 
+        (long long int)r1  * 100000000000000 +
+        (long long int)r2  * 10000000000000  +
+        (long long int)r3  * 1000000000000   +
+        (long long int)r4  * 100000000000    +
+        (long long int)r5  * 10000000000     +
+        (long long int)r6  * 1000000000      +
+        (long long int)r7  * 100000000       +
+        (long long int)r8  * 10000000        +
+        (long long int)r9  * 1000000         +
+        (long long int)r10 * 100000          +
+        (long long int)r11 * 10000           +
+        (long long int)r12 * 1000            +
+        (long long int)r13 * 100             +
+        (long long int)r14 * 10              +
+        (long long int)r15;
+    printf("Reversed number is: %lld\n", reversed);
+    return 0;
+}

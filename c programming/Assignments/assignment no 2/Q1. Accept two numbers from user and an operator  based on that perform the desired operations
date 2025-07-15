@@ -1,0 +1,54 @@
+#include<stdio.h>
+int main()
+{
+	int num1,num2;
+	int addition,substraction,multiplication;
+	float division,Modulus;
+	char op;
+	printf("enter first number:");
+	scanf("%d",&num1); 
+	
+	printf("enter second number:");
+	scanf("%d",&num2);  
+	
+	printf("enter the operator:");
+	scanf(" %c", &op);
+	
+	addition=num1+num2;
+	substraction=num1-num2;
+	division=(float)num1/num2;
+	multiplication=num1*num2;
+	Modulus=num1%num2;
+	if(op == '+')
+	{
+		printf("addition=%d",addition);
+	}
+	else if( op == '-')
+	{
+	printf("substaction=%d",substraction);
+}
+else if(op == '*')
+{
+
+	printf("multiplication=%d",multiplication);
+}
+    else if (op == '/') {
+        if (num2 != 0) {
+            printf("Division = %.2f\n", division);
+        } else {
+            printf("Division by zero\n");
+        }
+    }
+    else if (op == '%') {
+        if (num2 != 0) {
+            printf("Modulus = %.2f", Modulus);
+        } else {
+            printf(" Modulus by zero");
+        }
+    }
+    else {
+        printf("Invalid operator");
+    }
+
+    return 0;
+}

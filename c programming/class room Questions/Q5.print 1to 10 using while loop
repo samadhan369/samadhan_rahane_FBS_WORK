@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+	int number;
+	while(number<=10)
+	{
+		printf("\nnumber=%d",number);
+		number++;
+	}
+	
+}

@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main()
+{
+    int a = 10;
+    int *ptr = &a;
+
+    printf("a = %d\n",a);
+    printf("&a = %d\n",&a);
+    printf("ptr = %d\n",ptr);
+    printf("*ptr = %d\n",*ptr);
+    
+    printf("\n");
+    *ptr = 30;
+    printf("*ptr new value is %d\n", *ptr);
+
+   
+    printf("sizeof(int) = %zu\n", sizeof(int));
+    printf("sizeof(char) = %zu\n", sizeof(char));
+    printf("sizeof(float) = %zu\n", sizeof(float));
+    printf("sizeof(double) = %zu\n", sizeof(double));
+    
+
+    printf("sizeof(int*) = %zu\n", sizeof(int*));
+    printf("sizeof(char*) = %zu\n", sizeof(char*));
+    printf("sizeof(float*) = %zu\n", sizeof(float*));
+    printf("sizeof(double*) = %zu\n", sizeof(double*));
+    printf("sizeof(void*) = %zu\n", sizeof(void*));
+
+    return 0;
+}

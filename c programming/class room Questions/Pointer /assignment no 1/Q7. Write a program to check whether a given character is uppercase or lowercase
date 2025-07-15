@@ -1,0 +1,19 @@
+#include <stdio.h>
+void luchar(); 
+int main()
+{
+    luchar(); 
+}
+void luchar() 
+{
+    char ch;
+    char* ptr= ch;
+    printf("Enter the character: ");
+    scanf(" %c", &ptr); 
+    if (ptr >= 'A' && ptr <= 'Z')
+        printf("Character %c is uppercase.\n",ptr);
+    else if (ptr>= 'a' && ptr <= 'z')
+        printf("Character %c is lowercase.\n", ptr);
+    else
+        printf("Character %c is not an alphabet letter.\n");
+}
