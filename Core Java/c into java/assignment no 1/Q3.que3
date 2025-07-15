@@ -1,0 +1,17 @@
+package Assignmentno2;
+
+public class que3 {
+
+    public static void main(String[] args) {
+        long  no = 213456722432456l;
+        long reversed = 0;
+
+        while (no != 0) {
+            long digit = no % 10;
+            reversed = reversed * 10 + digit;
+            no /= 10;
+        }
+
+        System.out.printf("Reversed number is: %d\n", reversed);
+    }
+}
