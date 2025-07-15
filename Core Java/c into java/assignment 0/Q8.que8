@@ -1,0 +1,16 @@
+package assignmentno1;
+
+public class que8 {
+
+	public static void main(String[] args) {
+		int length=10,width=20,rectangle,perimeter;
+		
+		 
+		rectangle=length+width;
+		perimeter=2*rectangle;
+		
+		System.out.printf("rectangle is %d \n and perimeter is %d \n",rectangle,perimeter);
+
+	}
+
+}
