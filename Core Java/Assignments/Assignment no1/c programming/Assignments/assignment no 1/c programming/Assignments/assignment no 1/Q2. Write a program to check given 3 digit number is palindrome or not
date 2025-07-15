@@ -1,0 +1,19 @@
+public class Assignment1_Q2 {
+    public static void main(String[] args) {
+        int num = 121; 
+        int original = num;
+        int reversed = 0;
+
+        while (num != 0) {
+            int rem = num % 10;
+            reversed = reversed * 10 + rem;
+            num = num / 10;
+        }
+
+        if (original == reversed) {
+            System.out.println(" is a palindrome.",original);
+        } else {
+            System.out.println(" is not a palindrome.",original);
+        }
+    }
+}
