@@ -1,0 +1,29 @@
+package Assignmentno2;
+
+public class que4 {
+
+	public static void main(String[] args) {
+		  char ch='A';
+		    
+		    if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z'))
+		    {
+		    
+		        if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ||
+		            ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U')
+		        {
+		            
+		        	 System.out.printf("Character is a vowel: %c\n", ch);
+		        }
+		        else
+		        {
+		        	 System.out.printf("Character is a consonant: %c\n", ch);
+		        }
+		    }
+		    else
+		    {
+		    	 System.out.printf("Character is not an alphabet letter.\n");
+		    }
+
+	}
+
+}
