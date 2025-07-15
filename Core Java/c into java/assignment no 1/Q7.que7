@@ -1,0 +1,21 @@
+package Assignmentno2;
+
+public class que7 {
+
+	public static void main(String[] args) {
+		char ch='A';
+		
+		if(ch>='A' && ch<='Z')
+		{
+		
+			System.out.printf("character is upper case");
+	}
+
+	else
+	{
+		System.out.printf("character is lower case");
+	}
+
+	}
+
+}
