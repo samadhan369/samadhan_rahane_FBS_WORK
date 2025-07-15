@@ -1,0 +1,15 @@
+package assignmentno1;
+
+public class que7 {
+
+	public static void main(String[] args) {
+		 double totalMinutes=121.87,hours, minutes;
+		  double seconds;
+
+		    hours = totalMinutes / 60;          
+		    minutes = totalMinutes % 60;         
+		    seconds = (totalMinutes * 60) % 60;   
+
+		    System.out.printf("%.2f minutes = %.2f hour(s), %.2f minute(s), and %.2f second(s)\n", totalMinutes, hours, minutes, seconds);
+	}
+}
