@@ -1,0 +1,16 @@
+package assignmentno1;
+
+public class que9 {
+
+	public static void main(String[] args) {
+		double base=10,height=10,area;
+		
+		
+		area = 0.5*base*height;
+
+	 System.out.printf("Area of the triangle = %.2f \n", area);
+	
+
+	}
+
+}
