@@ -1,0 +1,15 @@
+package assignmentno1;
+
+public class que6 {
+
+	public static void main(String[] args) {
+		 double number=20, square, cube;
+
+		    square = number * number;
+		    cube = number * number * number;
+
+		    System.out.printf("Square of %.2f = %.2f\n", number, square);
+		    System.out.printf("Cube of %.2f = %.2f\n", number, cube);
+	}
+
+}
