@@ -1,0 +1,19 @@
+package Assignmentno3;
+
+public class que6 {
+
+	public static void main(String[] args) {
+		  int number=30;
+		    if (number % 3 == 0 && number % 5 == 0) {
+		    	System.out.printf("Divisible by both\n");
+		    } else if (number % 3 == 0) {
+		    	System.out.printf("Divisible by 3 but not by 5\n");
+		    } else if (number % 5 == 0) {
+		    	System.out.printf("Divisible by 5 but not by 3\n");
+		    } else {
+		    	System.out.printf("Divisible by None\n");
+		    }
+
+	}
+
+}
