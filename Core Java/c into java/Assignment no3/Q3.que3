@@ -1,0 +1,17 @@
+package Assignmentno4;
+
+public class que3 {
+
+	public static void main(String[] args) {
+	    int start=1, end=11, sum = 0;
+	    
+	    while(start <= end)
+	    {
+	    	sum=sum + start;
+	    	start++;
+	    }
+	    System.out.printf("sum= %d\n",sum);
+
+	}
+
+}
