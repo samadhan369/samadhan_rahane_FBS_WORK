@@ -3,13 +3,13 @@ package Assignmentno4;
 public class que4 {
 
 	public static void main(String[] args) {
-		 int num=7, i = 2, n = 1;  // n=1 means prime
+		 int num=7, i = 2, n = 1; 
 		    if (num <= 1) {
-		        n = 0;  // 0 and 1 are not prime
+		        n = 0;  
 		    }
 		    while (i < num) {
 		        if (num % i == 0) {
-		            n = 0;  // Not a prime
+		            n = 0; 
 		        }
 		        i++;
 		    }
