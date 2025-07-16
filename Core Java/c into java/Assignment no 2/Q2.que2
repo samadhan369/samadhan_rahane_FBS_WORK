@@ -1,0 +1,25 @@
+package Assignmentno3;
+
+public class que2 {
+
+	public static void main(String[] args) {
+		  int a=21, b=21, c=21;
+
+	
+
+		    if(a + b > c && b + c > a && a + c > b) {  
+		        if(a == b && b == c) {
+		            System.out.printf("Equilateral triangle\n");
+		        } else if(a == b || b == c || a == c) {
+		            System.out.printf("Isosceles triangle\n");
+		        } else {
+		            System.out.printf("Scalene triangle");
+		        }
+		    } else {
+	            System.out.printf("Not a valid triangle");
+		    }
+
+
+	}
+
+}
