@@ -1,0 +1,59 @@
+package Assignmentno3;
+
+public class que1 {
+
+	public static void main(String[] args) {
+
+		int num1=10,num2=30;
+		int addition,substraction,multiplication;
+		float division,Modulus;
+		char op='*';
+		
+		
+		addition=num1+num2;
+		substraction=num1-num2;
+		division=(float)num1/num2;
+		multiplication=num1*num2;
+		Modulus=num1%num2;
+		if(op == '+')
+		{
+
+	        System.out.printf("addition=%d",addition);
+		}
+		else if( op == '-')
+		{
+
+	        System.out.printf("substaction=%d",substraction);
+	}
+	else if(op == '*')
+	{
+
+
+        System.out.printf("multiplication=%d",multiplication);
+	}
+	    else if (op == '/') {
+	        if (num2 != 0) {
+
+	            System.out.printf("Division = %.2f\n", division);
+	        } else {
+
+	            System.out.printf("Division by zero\n");
+	        }
+	    }
+	    else if (op == '%') {
+	        if (num2 != 0) {
+
+	            System.out.printf("Modulus = %.2f", Modulus);
+	        } else {
+
+	            System.out.printf(" Modulus by zero");
+	        }
+	    }
+	    else {
+
+	        System.out.printf("Invalid operator");
+	    }
+
+	}
+
+}
