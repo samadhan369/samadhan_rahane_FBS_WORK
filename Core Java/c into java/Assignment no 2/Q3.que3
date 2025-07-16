@@ -1,0 +1,22 @@
+package Assignmentno3;
+
+public class que3 {
+
+	public static void main(String[] args) {
+		int n1=21,n2=312,n3=98;
+		
+		if(n1>n2 && n1>n3)
+		{
+			System.out.printf("n1 =  %d is gratest ",n1);
+		}
+		else if(n2>n1 && n2>n3)
+		{
+			System.out.printf("n2 = %d is greatest ",n2);
+		}
+		else{
+			System.out.printf("n3 = %d is greatest",n3);
+		}
+
+	}
+
+}
