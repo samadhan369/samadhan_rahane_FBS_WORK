@@ -1,0 +1,25 @@
+package Assignmentno4;
+
+public class que9 {
+
+    public static void main(String[] args) {
+
+        int number = 121; 
+        int original = number;
+        int reversed = 0, remainder;
+
+       
+        while (number != 0) {
+            remainder = number % 10;
+            reversed = reversed * 10 + remainder;
+            number = number / 10;
+        }
+
+    
+        if (original == reversed) {
+            System.out.printf("%d is a Palindrome number\n", original);
+        } else {
+            System.out.printf("%d is not a Palindrome number\n", original);
+        }
+    }
+}
