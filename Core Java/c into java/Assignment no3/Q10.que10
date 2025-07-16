@@ -1,0 +1,26 @@
+package Assignmentno4;
+
+public class que10 {
+
+	public static void main(String[] args) {
+	    int number=29993, firstDigit, lastDigit, sum;
+
+	   
+
+	    lastDigit = number % 10;  // Get last digit
+
+	    // Find first digit by continuously dividing by 10
+	    firstDigit = number;
+	    while (firstDigit >= 10) {
+	        firstDigit = firstDigit / 10;
+	    }
+
+	    sum = firstDigit + lastDigit;
+
+	    System.out.printf("First digit: %d\n", firstDigit);
+	    System.out.printf("Last digit: %d\n", lastDigit);
+	    System.out.printf("Sum of first and last digit = %d\n", sum);
+
+	}
+
+}
