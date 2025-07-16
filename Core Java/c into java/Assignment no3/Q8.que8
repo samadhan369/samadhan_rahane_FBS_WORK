@@ -1,0 +1,30 @@
+package Assignmentno4;
+
+public class que8 {
+
+	public static void main(String[] args) {
+	    int n=145;
+	    		int temp, rem, sum = 0, i, fact;
+	    
+	       temp = n;
+
+	       while (n!=0) {
+	           i = 1;
+	           fact = 1;
+	           rem = n % 10;
+	           while (i <= rem) {
+	               fact = fact * i;
+	               i++;
+	           }
+	           sum = sum + fact;
+	           n = n / 10;
+	       }
+
+	       if (sum == temp)
+	    	   System.out.printf("number %d is a strong number", temp);
+	       else
+	    	   System.out.printf("number %d is not a strong number", temp);
+
+	}
+
+}
