@@ -1,0 +1,24 @@
+package Assignmentno4;
+
+public class que4 {
+
+	public static void main(String[] args) {
+		 int num=7, i = 2, n = 1;  // n=1 means prime
+		    if (num <= 1) {
+		        n = 0;  // 0 and 1 are not prime
+		    }
+		    while (i < num) {
+		        if (num % i == 0) {
+		            n = 0;  // Not a prime
+		        }
+		        i++;
+		    }
+
+		    if (n == 1)
+		    	 System.out.printf("number=%d is prime \n", num);
+		    else
+		    	 System.out.printf("number=%d is not prime \n", num);
+
+	}
+
+}
