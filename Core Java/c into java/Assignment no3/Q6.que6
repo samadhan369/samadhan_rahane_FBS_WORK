@@ -1,0 +1,23 @@
+package Assignmentno4;
+
+public class que6 {
+
+	public static void main(String[] args) {
+	    int number=28, i = 1, sum = 0;
+
+	    while (i < number) {
+	        if (number % i == 0) {
+	            sum += i;
+	        }
+	        i++;
+	    }
+
+	    if (sum == number) {
+	    	 System.out.printf("%d is a Perfect number\n", number);
+	    } else {
+	    	 System.out.printf("%d is not a Perfect number\n", number);
+	    }
+
+	}
+
+}
