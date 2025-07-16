@@ -1,0 +1,16 @@
+package Assignmentno4;
+
+public class que7 {
+
+	public static void main(String[] args) {
+	    int number=5,fact=1,count=1;
+	  
+	while(count<=number){
+		fact=fact * count;
+		count++;
+		 System.out.printf("factorial of %d is %d\n",number,fact);
+		}
+
+	}
+
+}
